@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60171E6A1DACDBD600A2025A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60171E691DACDBD600A2025A /* AppDelegate.swift */; };
+		60171E6C1DACDBD600A2025A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60171E6B1DACDBD600A2025A /* ViewController.swift */; };
+		60171E6F1DACDBD600A2025A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60171E6D1DACDBD600A2025A /* Main.storyboard */; };
+		60171E711DACDBD600A2025A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60171E701DACDBD600A2025A /* Assets.xcassets */; };
+		60171E741DACDBD600A2025A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60171E721DACDBD600A2025A /* LaunchScreen.storyboard */; };
+		60171E791DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 60171E781DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app */; };
+		60171E7F1DACDBD600A2025A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60171E7D1DACDBD600A2025A /* Interface.storyboard */; };
+		60171E811DACDBD600A2025A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60171E801DACDBD600A2025A /* Assets.xcassets */; };
+		60171E881DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60171E871DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60171E8D1DACDBD600A2025A /* SceneKitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60171E8C1DACDBD600A2025A /* SceneKitInterfaceController.swift */; };
+		60171E8F1DACDBD600A2025A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60171E8E1DACDBD600A2025A /* ExtensionDelegate.swift */; };
+		60171E911DACDBD600A2025A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60171E901DACDBD600A2025A /* Assets.xcassets */; };
+		60171EA11DACDC1400A2025A /* Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 60171EA01DACDC1400A2025A /* Scene.scn */; };
+		60171EA31DACDE2D00A2025A /* CrownInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60171EA21DACDE2D00A2025A /* CrownInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60171E7A1DACDBD600A2025A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60171E5E1DACDBD600A2025A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60171E771DACDBD600A2025A;
+			remoteInfo = "watchOS 3 Additions WatchKit App";
+		};
+		60171E891DACDBD600A2025A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60171E5E1DACDBD600A2025A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60171E861DACDBD600A2025A;
+			remoteInfo = "watchOS 3 Additions WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60171E981DACDBD600A2025A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60171E881DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60171E9C1DACDBD600A2025A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				60171E791DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60171E661DACDBD600A2025A /* watchOS 3 Additions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS 3 Additions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60171E691DACDBD600A2025A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60171E6B1DACDBD600A2025A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60171E6E1DACDBD600A2025A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60171E701DACDBD600A2025A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60171E731DACDBD600A2025A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60171E751DACDBD600A2025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60171E781DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS 3 Additions WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60171E7E1DACDBD600A2025A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		60171E801DACDBD600A2025A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60171E821DACDBD600A2025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60171E871DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchOS 3 Additions WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60171E8C1DACDBD600A2025A /* SceneKitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitInterfaceController.swift; sourceTree = "<group>"; };
+		60171E8E1DACDBD600A2025A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		60171E901DACDBD600A2025A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60171E921DACDBD600A2025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60171EA01DACDC1400A2025A /* Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Scene.scn; sourceTree = "<group>"; };
+		60171EA21DACDE2D00A2025A /* CrownInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrownInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60171E631DACDBD600A2025A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60171E841DACDBD600A2025A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60171E5D1DACDBD600A2025A = {
+			isa = PBXGroup;
+			children = (
+				60171E681DACDBD600A2025A /* watchOS 3 Additions */,
+				60171E7C1DACDBD600A2025A /* watchOS 3 Additions WatchKit App */,
+				60171E8B1DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension */,
+				60171E671DACDBD600A2025A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60171E671DACDBD600A2025A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60171E661DACDBD600A2025A /* watchOS 3 Additions.app */,
+				60171E781DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app */,
+				60171E871DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60171E681DACDBD600A2025A /* watchOS 3 Additions */ = {
+			isa = PBXGroup;
+			children = (
+				60171E691DACDBD600A2025A /* AppDelegate.swift */,
+				60171E6B1DACDBD600A2025A /* ViewController.swift */,
+				60171E6D1DACDBD600A2025A /* Main.storyboard */,
+				60171E701DACDBD600A2025A /* Assets.xcassets */,
+				60171E721DACDBD600A2025A /* LaunchScreen.storyboard */,
+				60171E751DACDBD600A2025A /* Info.plist */,
+			);
+			path = "watchOS 3 Additions";
+			sourceTree = "<group>";
+		};
+		60171E7C1DACDBD600A2025A /* watchOS 3 Additions WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				60171E7D1DACDBD600A2025A /* Interface.storyboard */,
+				60171EA01DACDC1400A2025A /* Scene.scn */,
+				60171E801DACDBD600A2025A /* Assets.xcassets */,
+				60171E821DACDBD600A2025A /* Info.plist */,
+			);
+			path = "watchOS 3 Additions WatchKit App";
+			sourceTree = "<group>";
+		};
+		60171E8B1DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				60171E8C1DACDBD600A2025A /* SceneKitInterfaceController.swift */,
+				60171EA21DACDE2D00A2025A /* CrownInterfaceController.swift */,
+				60171E8E1DACDBD600A2025A /* ExtensionDelegate.swift */,
+				60171E901DACDBD600A2025A /* Assets.xcassets */,
+				60171E921DACDBD600A2025A /* Info.plist */,
+			);
+			path = "watchOS 3 Additions WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60171E651DACDBD600A2025A /* watchOS 3 Additions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60171E9D1DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions" */;
+			buildPhases = (
+				60171E621DACDBD600A2025A /* Sources */,
+				60171E631DACDBD600A2025A /* Frameworks */,
+				60171E641DACDBD600A2025A /* Resources */,
+				60171E9C1DACDBD600A2025A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60171E7B1DACDBD600A2025A /* PBXTargetDependency */,
+			);
+			name = "watchOS 3 Additions";
+			productName = "watchOS 3 Additions";
+			productReference = 60171E661DACDBD600A2025A /* watchOS 3 Additions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60171E771DACDBD600A2025A /* watchOS 3 Additions WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60171E991DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions WatchKit App" */;
+			buildPhases = (
+				60171E761DACDBD600A2025A /* Resources */,
+				60171E981DACDBD600A2025A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60171E8A1DACDBD600A2025A /* PBXTargetDependency */,
+			);
+			name = "watchOS 3 Additions WatchKit App";
+			productName = "watchOS 3 Additions WatchKit App";
+			productReference = 60171E781DACDBD600A2025A /* watchOS 3 Additions WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		60171E861DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60171E951DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions WatchKit Extension" */;
+			buildPhases = (
+				60171E831DACDBD600A2025A /* Sources */,
+				60171E841DACDBD600A2025A /* Frameworks */,
+				60171E851DACDBD600A2025A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS 3 Additions WatchKit Extension";
+			productName = "watchOS 3 Additions WatchKit Extension";
+			productReference = 60171E871DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60171E5E1DACDBD600A2025A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tutsplus;
+				TargetAttributes = {
+					60171E651DACDBD600A2025A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					60171E771DACDBD600A2025A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					60171E861DACDBD600A2025A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60171E611DACDBD600A2025A /* Build configuration list for PBXProject "watchOS 3 Additions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60171E5D1DACDBD600A2025A;
+			productRefGroup = 60171E671DACDBD600A2025A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60171E651DACDBD600A2025A /* watchOS 3 Additions */,
+				60171E771DACDBD600A2025A /* watchOS 3 Additions WatchKit App */,
+				60171E861DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60171E641DACDBD600A2025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171E741DACDBD600A2025A /* LaunchScreen.storyboard in Resources */,
+				60171E711DACDBD600A2025A /* Assets.xcassets in Resources */,
+				60171E6F1DACDBD600A2025A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60171E761DACDBD600A2025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171EA11DACDC1400A2025A /* Scene.scn in Resources */,
+				60171E811DACDBD600A2025A /* Assets.xcassets in Resources */,
+				60171E7F1DACDBD600A2025A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60171E851DACDBD600A2025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171E911DACDBD600A2025A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60171E621DACDBD600A2025A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171E6C1DACDBD600A2025A /* ViewController.swift in Sources */,
+				60171E6A1DACDBD600A2025A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60171E831DACDBD600A2025A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171EA31DACDE2D00A2025A /* CrownInterfaceController.swift in Sources */,
+				60171E8F1DACDBD600A2025A /* ExtensionDelegate.swift in Sources */,
+				60171E8D1DACDBD600A2025A /* SceneKitInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60171E7B1DACDBD600A2025A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60171E771DACDBD600A2025A /* watchOS 3 Additions WatchKit App */;
+			targetProxy = 60171E7A1DACDBD600A2025A /* PBXContainerItemProxy */;
+		};
+		60171E8A1DACDBD600A2025A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60171E861DACDBD600A2025A /* watchOS 3 Additions WatchKit Extension */;
+			targetProxy = 60171E891DACDBD600A2025A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60171E6D1DACDBD600A2025A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60171E6E1DACDBD600A2025A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60171E721DACDBD600A2025A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60171E731DACDBD600A2025A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60171E7D1DACDBD600A2025A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60171E7E1DACDBD600A2025A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60171E931DACDBD600A2025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60171E941DACDBD600A2025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60171E961DACDBD600A2025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "watchOS 3 Additions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		60171E971DACDBD600A2025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "watchOS 3 Additions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		60171E9A1DACDBD600A2025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchOS_3_Additions_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS 3 Additions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		60171E9B1DACDBD600A2025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchOS_3_Additions_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS 3 Additions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		60171E9E1DACDBD600A2025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "watchOS 3 Additions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60171E9F1DACDBD600A2025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "watchOS 3 Additions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutsplus.watchOS-3-Additions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60171E611DACDBD600A2025A /* Build configuration list for PBXProject "watchOS 3 Additions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60171E931DACDBD600A2025A /* Debug */,
+				60171E941DACDBD600A2025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60171E951DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60171E961DACDBD600A2025A /* Debug */,
+				60171E971DACDBD600A2025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60171E991DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60171E9A1DACDBD600A2025A /* Debug */,
+				60171E9B1DACDBD600A2025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60171E9D1DACDBD600A2025A /* Build configuration list for PBXNativeTarget "watchOS 3 Additions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60171E9E1DACDBD600A2025A /* Debug */,
+				60171E9F1DACDBD600A2025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60171E5E1DACDBD600A2025A /* Project object */;
+}
