@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zSB-hh-SCZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
@@ -10,12 +10,16 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="SceneKitInterfaceController" customModule="watchOS_3_Additions_WatchKit_Extension">
                     <items>
+                        <sceneKitScene alignment="left" scene="Scene.scn" id="JAH-mY-9KL"/>
                         <button width="1" alignment="left" title="Play / Pause" id="xNL-94-8lk">
                             <connections>
                                 <action selector="didPress" destination="AgC-eL-Hgc" id="za8-jc-wAU"/>
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="sceneItem" destination="JAH-mY-9KL" id="ZjS-pt-Lfg"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

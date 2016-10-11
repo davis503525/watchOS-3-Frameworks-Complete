@@ -11,7 +11,9 @@ import Foundation
 import SceneKit
 
 class SceneKitInterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet var sceneItem: WKInterfaceSCNScene!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -19,6 +21,8 @@ class SceneKitInterfaceController: WKInterfaceController {
     }
 
     @IBAction func didPress() {
-        
+        if let paused = sceneItem.scene?.isPaused {
+            sceneItem?.scene?.isPaused = !paused
+        }
     }
 }

@@ -10,14 +10,25 @@ import WatchKit
 import Foundation
 
 
-class CrownInterfaceController: WKInterfaceController {
+class CrownInterfaceController: WKInterfaceController, WKCrownDelegate {
 
     @IBOutlet var label: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        crownSequencer.delegate = self
+        crownSequencer.focus()
+    }
+    
+    func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {
+        if let speed = crownSequencer?.rotationsPerSecond {
+            label.setText("Crown\nspeed:\n\(speed)")
+        }
+    }
+
+    func crownDidBecomeIdle(_ crownSequencer: WKCrownSequencer?) {
+        label.setText("Crown\nis idle")
     }
 
     override func willActivate() {
