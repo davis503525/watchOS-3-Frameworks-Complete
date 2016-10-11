@@ -24,7 +24,7 @@
             <objects>
                 <controller id="zSB-hh-SCZ" customClass="CrownInterfaceController" customModule="watchOS_3_Additions_WatchKit_Extension">
                     <items>
-                        <label width="1" height="1" alignment="left" text="Label" textAlignment="center" id="RlS-La-woA">
+                        <label width="1" height="1" alignment="left" text="Label" textAlignment="center" numberOfLines="0" id="RlS-La-woA">
                             <fontDescription key="font" type="system" pointSize="30"/>
                         </label>
                     </items>
